@@ -475,3 +475,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+/KbrTec.JiuJitsuSystem.Application/appsettings.json
+/KbrTec.JiuJitsuSystem.Application/appsettings.Development.json
