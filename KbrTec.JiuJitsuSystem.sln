@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KbrTec.JiuJitsuSystem.Domain", "KbrTec.JiuJitsuSystem.Domain\KbrTec.JiuJitsuSystem.Domain.csproj", "{99C4C15B-5063-4C95-9838-A4DD0D7874F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KbrTec.JiuJitsuSystem.Data", "KbrtTec.JiuJitsuSystem.Data\KbrTec.JiuJitsuSystem.Data.csproj", "{55530138-9F0A-4514-9AEE-7AB98044F452}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KbrTec.JiuJitsuSystem.Application", "KbrTec.JiuJitsuSystem.Application\KbrTec.JiuJitsuSystem.Application.csproj", "{048F7117-0CF3-4C35-98F9-2AB08AA60DB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KbrTec.JiuJitsuSystem.Service", "KbrTec.JiuJitsuSystem.Service\KbrTec.JiuJitsuSystem.Service.csproj", "{9679AD98-DEDE-4064-87EC-429282FFF65B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99C4C15B-5063-4C95-9838-A4DD0D7874F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C4C15B-5063-4C95-9838-A4DD0D7874F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C4C15B-5063-4C95-9838-A4DD0D7874F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C4C15B-5063-4C95-9838-A4DD0D7874F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55530138-9F0A-4514-9AEE-7AB98044F452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55530138-9F0A-4514-9AEE-7AB98044F452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55530138-9F0A-4514-9AEE-7AB98044F452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55530138-9F0A-4514-9AEE-7AB98044F452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{048F7117-0CF3-4C35-98F9-2AB08AA60DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048F7117-0CF3-4C35-98F9-2AB08AA60DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048F7117-0CF3-4C35-98F9-2AB08AA60DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048F7117-0CF3-4C35-98F9-2AB08AA60DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9679AD98-DEDE-4064-87EC-429282FFF65B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9679AD98-DEDE-4064-87EC-429282FFF65B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9679AD98-DEDE-4064-87EC-429282FFF65B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9679AD98-DEDE-4064-87EC-429282FFF65B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F316A63C-7969-47A1-A296-7EF1E87B20ED}
+	EndGlobalSection
+EndGlobal

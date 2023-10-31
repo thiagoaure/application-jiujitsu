@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "KbrTec.JiuJitsuSystem.Data": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:56930;http://localhost:56931"
+    }
+  }
+}
