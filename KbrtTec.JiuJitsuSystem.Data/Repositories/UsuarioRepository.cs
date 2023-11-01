@@ -33,7 +33,8 @@ public class UsuarioRepository : IUsuarioRepository
 
     public async Task<Usuario> InsertUsuarioAsync(Usuario usuario)
     {
-        var result = await _appDbContext.Usuarios.AddAsync(usuario);
+        var result =  _appDbContext.Usuarios.Add(usuario);
+        await _appDbContext.SaveChangesAsync();
         return result.Entity;
     }
 

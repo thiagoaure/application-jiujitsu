@@ -34,7 +34,8 @@ public class CampeonatoRepository : ICampeonatoRepository
 
     public async Task<Campeonato> InsertCampeonatoAsync(Campeonato campeonato)
     {
-        var result = await _appDbContext.Campeonatos.AddAsync(campeonato);
+        var result =  _appDbContext.Campeonatos.Add(campeonato);
+        await _appDbContext.SaveChangesAsync();
         return result.Entity;
     }
 
