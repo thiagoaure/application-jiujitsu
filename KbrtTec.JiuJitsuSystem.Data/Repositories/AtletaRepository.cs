@@ -33,7 +33,7 @@ public class AtletaRepository : IAtletaRepository
 
     public async Task<Atleta> InsertAtletaAsync(Atleta atleta)
     {
-        var result =  _appDbContext.Atletas.Add(atleta);
+        var result = await  _appDbContext.Atletas.AddAsync(atleta);
         await _appDbContext.SaveChangesAsync();
         return result.Entity;
     }

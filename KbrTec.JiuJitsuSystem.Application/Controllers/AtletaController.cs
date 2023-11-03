@@ -35,10 +35,16 @@ namespace KbrTec.JiuJitsuSystem.Application.Controllers
 
         // POST api/<AtletaController>
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> PostAtleta([FromBody] Atleta atleta)
         {
             var result = await _atletaService.InsertAtletaAsync(atleta);
-            return Ok(result);
+            if (result == null)
+            {
+                return BadRequest("Nao foi possível cadastrar atleta");
+            }
+            return Created("api/Atleta", result);
         }
 
         // PUT api/<AtletaController>/5
