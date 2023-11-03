@@ -10,5 +10,7 @@ public static class ServicesExtensions
         services.AddTransient<ICampeonatoService, CampeonatoService>();
         services.AddTransient<IAtletaService, AtletaService>();
         services.AddTransient<IUsuarioService, UsuarioService>();
+        services.AddTransient<IInscricaoCampeonatoService, InscricaoCampeonatoService>();
+
     }
 }

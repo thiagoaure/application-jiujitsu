@@ -9,6 +9,7 @@ public class AppDbContext : DbContext
     public DbSet<Atleta> Atletas { get; set; }
     public DbSet<Campeonato> Campeonatos { get; set; }
     public DbSet<Usuario> Usuarios { get; set; }
+    public DbSet<InscricaoCampeonato> InscricoesCampeonatos { get; set; }
 
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
     {
@@ -21,5 +22,6 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<Atleta>(new AtletaMap().Configure);
         modelBuilder.Entity<Campeonato>(new CampeonatoMap().Configure);
         modelBuilder.Entity<Usuario>(new UsuarioMap().Configure);
+        modelBuilder.Entity<InscricaoCampeonato>(new InscricaoCampeonatoMap().Configure);
     }
 }

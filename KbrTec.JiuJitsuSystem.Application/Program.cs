@@ -1,4 +1,5 @@
 using KbrTec.JiuJitsuSystem.Application.Extensions;
+using KbrTec.JiuJitsuSystem.Application.Helpers;
 using KbrTec.JiuJitsuSystem.Data.Context;
 using Microsoft.EntityFrameworkCore;
 
@@ -18,6 +19,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddCustomServices();
 builder.Services.AddCustomRepositories();
+
+builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 
 var app = builder.Build();
 

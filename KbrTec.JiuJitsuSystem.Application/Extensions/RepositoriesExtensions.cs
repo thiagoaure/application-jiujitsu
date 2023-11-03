@@ -10,5 +10,6 @@ public static class RepositoriesExtensions
         services.AddTransient<ICampeonatoRepository, CampeonatoRepository>();
         services.AddTransient<IAtletaRepository, AtletaRepository>();
         services.AddTransient<IUsuarioRepository, UsuarioRepository>();
+        services.AddTransient<IInscricaoCampeonatoRepository, InscricaoCampeonatoReposiotory>();
     }
 }
