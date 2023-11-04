@@ -15,6 +15,8 @@ public class AutoMapperProfiles : Profile
         CreateMap<Atleta, AtletaResponse>().ReverseMap();
         CreateMap<Usuario, UsuarioResponse>();
         CreateMap<Usuario, UsuarioResponse>().ReverseMap();
+        CreateMap<Usuario, UsuarioRequest>();
+        CreateMap<Usuario, UsuarioRequest>().ReverseMap();
         CreateMap<InscricaoCampeonato, InscricaoCampeonatoResponse>();
         CreateMap<InscricaoCampeonato, InscricaoCampeonatoResponse>().ReverseMap();
         CreateMap<InscricaoCampeonato, InscricaoCampeonatoRequest>();

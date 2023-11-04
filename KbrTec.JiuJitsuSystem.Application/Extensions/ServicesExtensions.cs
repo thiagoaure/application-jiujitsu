@@ -1,4 +1,5 @@
-﻿using KbrTec.JiuJitsuSystem.Domain.Interfaces.Services;
+﻿using KbrTec.JiuJitsuSystem.Application.Security;
+using KbrTec.JiuJitsuSystem.Domain.Interfaces.Services;
 using KbrTec.JiuJitsuSystem.Service.Services;
 
 namespace KbrTec.JiuJitsuSystem.Application.Extensions;
@@ -11,6 +12,7 @@ public static class ServicesExtensions
         services.AddTransient<IAtletaService, AtletaService>();
         services.AddTransient<IUsuarioService, UsuarioService>();
         services.AddTransient<IInscricaoCampeonatoService, InscricaoCampeonatoService>();
+        services.AddTransient<IAuthService, AuthService>();
 
     }
 }

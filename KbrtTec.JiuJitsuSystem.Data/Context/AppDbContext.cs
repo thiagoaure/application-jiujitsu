@@ -1,5 +1,7 @@
 ﻿using KbrTec.JiuJitsuSystem.Data.Mapping;
 using KbrTec.JiuJitsuSystem.Domain.Entities;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace KbrTec.JiuJitsuSystem.Data.Context;

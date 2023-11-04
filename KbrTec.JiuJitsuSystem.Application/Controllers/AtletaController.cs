@@ -1,5 +1,6 @@
 ﻿using KbrTec.JiuJitsuSystem.Domain.Entities;
 using KbrTec.JiuJitsuSystem.Domain.Interfaces.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -8,6 +9,7 @@ namespace KbrTec.JiuJitsuSystem.Application.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class AtletaController : ControllerBase
     {
         private readonly IAtletaService _atletaService;

@@ -40,6 +40,7 @@ public class UsuarioRepository : IUsuarioRepository
 
     public async Task<Usuario> UpdateUsuarioAsync(Usuario newUsuario, Usuario oldUsuario)
     {
+        newUsuario.Id = oldUsuario.Id;
         _appDbContext.Usuarios.Entry(oldUsuario).State = EntityState.Detached;
         _appDbContext.Usuarios.Entry(newUsuario).State = EntityState.Modified;
         await _appDbContext.SaveChangesAsync();
