@@ -35,7 +35,7 @@ No arquivo aappsettings.Development.json, configure a string de conexão com o b
 Para executar o projeto sem nenhum problema de conexão, no diretorio principal, pode ser executado o seguinte comando: 
 
 ```
-dotnet run --project KbrTec.JiuJitsuSystem.Application\KbrTec JiuJitsuSystem.Application.csproj
+dotnet run --project KbrTec.JiuJitsuSystem.Application\KbrTec.JiuJitsuSystem.Application.csproj
 ```
 
 Após finalizar  o build, está sendo usado Swagger para documentação, onde também pode ser utilizado para fazer as requisições
@@ -46,7 +46,7 @@ Após finalizar  o build, está sendo usado Swagger para documentação, onde ta
 - Segregação dos campeonatos em masculino e feminino
 - Segregação do campeonatos por tipo de faixa, peso e outros atributos
 - Geração da chave de lutas entre os atletas
-- Geração dos resultados das partidas e do campoenatos como um todos
+- Geração dos resultados das partidas e do campeonato como um todo
 - Gerenciar tipos de campos com Imagens
 - Utilização de ferramentas de otimização de desenvolvimento como Docker, Testes Unitários, Banco de dados Nosql...
 
